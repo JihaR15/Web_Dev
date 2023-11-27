@@ -1,0 +1,81 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(270deg, #a836b1, #0054c0);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.Form{
+    box-sizing: content-box;
+    width: 450px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.945);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password] {
+    width: 80%;
+    background: rgb(224, 224, 224);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    margin-right: 10px;
+}
+
+
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=number]:hover,
+input[type=password]:hover{
+    background: rgba(212, 212, 212, 0.884);
+    outline: none;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus{
+    background: rgba(212, 212, 212, 0.884);
+    outline: none;
+}
+
+input[type=radio]{
+    margin: 10px;
+}
+
+input[type=submit]{
+    background: #06051f;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+input[type=submit]:hover{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background: #0054c0;
+}
+    
+.title{
+    font-size: 30px;
+}
+
